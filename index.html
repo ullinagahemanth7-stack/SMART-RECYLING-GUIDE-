@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kachra Kahan? Smart Recycling Guide for India</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f7f2;--ink:#1b2a22;--mute:#5b6b61;--card:#fff;--line:#d9e0d6;--green:#2f8a55;--blue:#2a63b0;--black:#3a3a3a;--red:#c0392b;--amber:#b7791f;--focus:#1b2a22;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a15;--ink:#e9efe9;--mute:#9db0a3;--card:#1b261f;--line:#2f3e34;--green:#58c083;--blue:#6aa0e6;--black:#bdbdbd;--red:#ee7b6d;--amber:#e0b14f;--focus:#e9efe9}}
+:root[data-theme="dark"]{--bg:#121a15;--ink:#e9efe9;--mute:#9db0a3;--card:#1b261f;--line:#2f3e34;--green:#58c083;--blue:#6aa0e6;--black:#bdbdbd;--red:#ee7b6d;--amber:#e0b14f;--focus:#e9efe9}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Instrument Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header.hero{padding:44px 0 28px}
+.hero h1{font-size:clamp(2.2rem,7vw,4rem);font-weight:800;letter-spacing:-.02em;max-width:14ch}
+.hero p{max-width:52ch;color:var(--mute);font-size:1.1rem;margin:14px 0 22px}
+.search{display:flex;gap:10px;max-width:560px}
+.search input{flex:1;min-width:0;font:inherit;padding:14px 16px;border:2px solid var(--ink);border-radius:12px;background:var(--card);color:var(--ink)}
+.search button{font:inherit;font-weight:600;padding:0 18px;border:0;border-radius:12px;background:var(--ink);color:var(--bg);cursor:pointer}
+.bins{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:26px 0 8px}
+.bin{border-radius:14px;padding:16px;color:#fff;min-height:110px}
+.bin h3{font-size:1.15rem;margin-bottom:6px}
+.bin p{margin:0;font-size:.92rem;opacity:.95}
+.b-green{background:#2f8a55}.b-blue{background:#2a63b0}.b-black{background:#3a3a3a}.b-red{background:#b03a2e}
+section{padding:26px 0}
+h2{font-size:1.7rem;margin-bottom:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.chip{font:inherit;font-size:.92rem;padding:8px 14px;border:1.5px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.count{color:var(--mute);margin:0 0 12px;font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;align-items:start}
+details{background:var(--card);border:1px solid var(--line);border-left-width:8px;border-radius:12px;padding:0}
+details[data-bin="green"]{border-left-color:var(--green)}details[data-bin="blue"]{border-left-color:var(--blue)}details[data-bin="black"]{border-left-color:var(--black)}details[data-bin="red"]{border-left-color:var(--red)}
+summary{cursor:pointer;padding:14px 16px;list-style:none;display:flex;justify-content:space-between;gap:10px;align-items:center;font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary small{font-weight:500;color:var(--mute);white-space:nowrap}
+.body{padding:0 16px 16px;font-size:.96rem}
+.body ol{margin:6px 0 10px;padding-left:20px}
+.body p{margin:6px 0}
+.tag{display:inline-block;font-size:.8rem;font-weight:600;padding:2px 9px;border-radius:999px;border:1.5px solid currentColor}
+.t-green{color:var(--green)}.t-blue{color:var(--blue)}.t-black{color:var(--black)}.t-red{color:var(--red)}
+.empty{padding:22px;border:2px dashed var(--line);border-radius:12px;color:var(--mute)}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.rules div,.where div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.rules h3,.where h3{font-size:1.05rem;margin-bottom:6px}
+.rules p,.where p{margin:0;color:var(--mute);font-size:.95rem}
+.where{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+footer{border-top:1px solid var(--line);margin-top:20px;padding:22px 0 34px;color:var(--mute);font-size:.9rem}
+.theme{float:right;font:inherit;font-size:.85rem;padding:6px 12px;border:1.5px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);cursor:pointer}
+@media (prefers-reduced-motion:no-preference){.bin{animation:rise .5s ease both}.bin:nth-child(2){animation-delay:.08s}.bin:nth-child(3){animation-delay:.16s}.bin:nth-child(4){animation-delay:.24s}@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<button class="theme" id="theme" type="button">Dark / light</button>
+<h1>Where does this waste go?</h1>
+<p>Type any household item to find the right bin, how to prepare it, and where it goes next. Built for Indian homes and housing societies.</p>
+<form class="search" role="search" onsubmit="return false">
+<input id="q" type="search" placeholder="Try: pizza box, battery, medicine strip" aria-label="Search for a waste item" autocomplete="off">
+<button type="button" id="clr">Clear</button>
+</form>
+<div class="bins" aria-label="Bin colour guide">
+<div class="bin b-green"><h3>Green bin: wet</h3><p>Food scraps, peels, flowers, garden waste. Becomes compost.</p></div>
+<div class="bin b-blue"><h3>Blue bin: dry</h3><p>Clean paper, plastic, metal, glass. Goes to recyclers.</p></div>
+<div class="bin b-black"><h3>Black bin: hazardous</h3><p>Batteries, bulbs, paint, chemicals. Keep separate.</p></div>
+<div class="bin b-red"><h3>Red bag: sanitary</h3><p>Diapers, pads, bandages. Wrap and mark before handing over.</p></div>
+</div>
+</header>
+
+<section aria-labelledby="h-find">
+<h2 id="h-find">Find your item</h2>
+<div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+<p class="count" id="count" aria-live="polite"></p>
+<div class="grid" id="grid"></div>
+</section>
+
+<section aria-labelledby="h-rules">
+<h2 id="h-rules">Three habits that make recycling work</h2>
+<div class="rules">
+<div><h3>Separate at home</h3><p>Wet and dry waste mixed together can't be recycled. Two buckets in the kitchen is enough to start.</p></div>
+<div><h3>Rinse, drain, flatten</h3><p>Food-soiled paper and plastic gets rejected. A quick rinse and squashing containers saves space.</p></div>
+<div><h3>Hand over, don't dump</h3><p>Give dry waste to your waste collector, kabadiwala or society collection point instead of burning or dumping it.</p></div>
+</div>
+</section>
+
+<section aria-labelledby="h-where">
+<h2 id="h-where">Where to take it</h2>
+<div class="where">
+<div><h3>Municipal collection</h3><p>Door-to-door vans take wet and dry waste. Ask your ward office for the hazardous and sanitary pickup schedule.</p></div>
+<div><h3>Kabadiwala / scrap dealer</h3><p>Pays for newspaper, cardboard, metal, glass bottles and PET bottles. Good for clean dry waste.</p></div>
+<div><h3>Authorised e-waste recycler</h3><p>E-waste must go to an authorised recycler or a brand take-back programme under India's E-Waste (Management) Rules. Check your state pollution control board's list.</p></div>
+<div><h3>Composting</h3><p>Home compost bins, community composters or society composting pits turn wet waste into manure.</p></div>
+</div>
+</section>
+
+<footer>
+<p><strong>Smart Recycling Guide</strong>, CHE110 Environmental Studies, CA1, Topic 10. Guidance follows India's Solid Waste Management Rules, 2016 colour-coding. Collection rules and bin colours vary by city, so confirm with your local body.</p>
+</footer>
+</div>
+
+<script>
+// [name, category, bin, steps[], tip, keywords]
+var D=[
+["Vegetable and fruit peels","Food & garden","green",["Collect in a kitchen bucket","Drain extra water","Put in the green bin or home compost"],"Citrus peels and onion skins compost slowly in large amounts. Use them in small quantities.","fruit vegetable peel scraps kitchen"],
+["Cooked food leftovers","Food & garden","green",["Scrape into the wet-waste bin","Don't mix with plastic or foil","Use a lidded bin to avoid pests"],"Surplus fresh food can be given to neighbours or food banks instead of binned.","rice roti dal curry leftover"],
+["Tea leaves and coffee grounds","Food & garden","green",["Squeeze out water","Add to wet waste or compost"],"Remove the teabag first. Many teabags contain plastic.","tea chai coffee"],
+["Flowers and puja offerings","Food & garden","green",["Remove plastic wrapping and threads","Compost the flowers","Don't immerse in rivers or ponds"],"Some temples and NGOs turn flowers into compost and incense.","phool flower garland puja temple"],
+["Garden leaves and trimmings","Food & garden","green",["Collect dry leaves separately","Shred or chop small","Add to compost or society pit"],"Never burn leaves. It releases smoke and particulates.","leaf grass garden twig"],
+["Eggshells and bones","Food & garden","green",["Place in wet waste","Crush shells before composting"],"Large bones decompose slowly. Check if your collector accepts them.","egg shell bone chicken fish"],
+["Newspaper and magazines","Paper","blue",["Keep dry","Stack and tie with string","Hand to kabadiwala or dry-waste collector"],"Wet or oily paper can't be recycled. Move it to wet waste if heavily soiled with food.","newspaper magazine paper"],
+["Cardboard boxes","Paper","blue",["Remove tape and labels","Flatten","Keep dry"],"Flattened cardboard is one of the best-paying kabadiwala items.","carton box cardboard amazon"],
+["Pizza box","Paper","blue",["Tear off greasy lid or base","Recycle the clean part","Put the greasy part in
